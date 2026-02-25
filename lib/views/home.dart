@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     produkList = getProdukList();
   }
 
-  /// 🔥 FIX GOOGLE DRIVE URL
+
   String fixImageUrl(String url) {
     if (url.contains("drive.google.com")) {
       final uri = Uri.parse(url);
@@ -138,7 +138,7 @@ class _HomePageState extends State<HomePage> {
                         },
                       ),
 
-                      /// EDIT
+                      
                       IconButton(
                         icon: const Icon(Icons.edit,
                             color: Colors.orange),
