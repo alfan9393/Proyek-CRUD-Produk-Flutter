@@ -123,7 +123,6 @@ class _HomePageState extends State<HomePage> {
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      /// DETAIL
                       IconButton(
                         icon: const Icon(Icons.visibility,
                             color: Colors.blue),
@@ -158,7 +157,7 @@ class _HomePageState extends State<HomePage> {
                         },
                       ),
 
-                      /// DELETE
+
                       IconButton(
                         icon: const Icon(Icons.delete,
                             color: Colors.red),
